@@ -10,14 +10,14 @@ spkgenome = "/home/software/bowtie2-2.2.9/genome/Drosophila_melanogaster/UCSC/dm
 fastq_folder = "/Extension_HDD2/Hanbin/ProjectB/pp01_lib/paulap20062912/";
 out_dir = "/Extension_HDD2/Hanbin/ProjectB/pp01_lib/SpikeIn_Analysis/"
 fastq = Dict{String,Vector{String}}(
-    "DMSO_Smad1" => ["nR064-L1-G2-P37-ATCACG-Sequences.txt.gz", "nR064-L2-G2-P37-ATCACG-Sequences.txt.gz"],
-    "FLV_Smad1" => ["nR064-L1-G2-P39-TTAGGC-Sequences.txt.gz", "nR064-L2-G2-P39-TTAGGC-Sequences.txt.gz"],
-    "Tub_Smad1" => ["nR064-L1-G2-P41-ACAGTG-Sequences.txt.gz", "nR064-L2-G2-P41-ACAGTG-Sequences.txt.gz"],
-    "BMP_Smad1" => ["nR064-L1-G2-P43-CAGATC-Sequences.txt.gz", "nR064-L2-G2-P43-CAGATC-Sequences.txt.gz"],
-    "BMP_FLV_Smad1" => ["nR064-L1-G2-P45-GATCAG-Sequences.txt.gz", "nR064-L2-G2-P45-GATCAG-Sequences.txt.gz"],
-    "BMP_Tub_Smad1" => ["nR064-L1-G2-P47-GGCTAC-Sequences.txt.gz", "nR064-L2-G2-P47-GGCTAC-Sequences.txt.gz"]
+    "D_S1" => ["nR064-L1-G2-P37-ATCACG-Sequences.txt.gz", "nR064-L2-G2-P37-ATCACG-Sequences.txt.gz"],
+    "F_Sd1" => ["nR064-L1-G2-P39-TTAGGC-Sequences.txt.gz", "nR064-L2-G2-P39-TTAGGC-Sequences.txt.gz"],
+    "T_S1" => ["nR064-L1-G2-P41-ACAGTG-Sequences.txt.gz", "nR064-L2-G2-P41-ACAGTG-Sequences.txt.gz"],
+    "B_S1" => ["nR064-L1-G2-P43-CAGATC-Sequences.txt.gz", "nR064-L2-G2-P43-CAGATC-Sequences.txt.gz"],
+    "B_F_Sd1" => ["nR064-L1-G2-P45-GATCAG-Sequences.txt.gz", "nR064-L2-G2-P45-GATCAG-Sequences.txt.gz"],
+    "B_T_S1" => ["nR064-L1-G2-P47-GGCTAC-Sequences.txt.gz", "nR064-L2-G2-P47-GGCTAC-Sequences.txt.gz"]
 )
-n, samples = length(fastq), ["DMSO_Smad1", "FLV_Smad1", "Tub_Smad1", "BMP_Smad1", "BMP_FLV_Smad1", "BMP_Tub_Smad1"]
+n, samples = length(fastq), ["D_S1", "F_S1", "T_S1", "B_S1", "B_F_S1", "B_T_S1"]
 samples = [joinpath(out_dir, s) for s in samples]
 # +
 # ' ## Mapping to reference genome
