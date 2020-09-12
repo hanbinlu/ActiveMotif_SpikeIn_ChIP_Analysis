@@ -11,10 +11,10 @@ fastq_folder = "/Extension_HDD2/Hanbin/ProjectB/pp01_lib/paulap20062912/";
 out_dir = "/Extension_HDD2/Hanbin/ProjectB/pp01_lib/SpikeIn_Analysis/"
 fastq = Dict{String,Vector{String}}(
     "D_S1" => ["nR064-L1-G2-P37-ATCACG-Sequences.txt.gz", "nR064-L2-G2-P37-ATCACG-Sequences.txt.gz"],
-    "F_Sd1" => ["nR064-L1-G2-P39-TTAGGC-Sequences.txt.gz", "nR064-L2-G2-P39-TTAGGC-Sequences.txt.gz"],
+    "F_S1" => ["nR064-L1-G2-P39-TTAGGC-Sequences.txt.gz", "nR064-L2-G2-P39-TTAGGC-Sequences.txt.gz"],
     "T_S1" => ["nR064-L1-G2-P41-ACAGTG-Sequences.txt.gz", "nR064-L2-G2-P41-ACAGTG-Sequences.txt.gz"],
     "B_S1" => ["nR064-L1-G2-P43-CAGATC-Sequences.txt.gz", "nR064-L2-G2-P43-CAGATC-Sequences.txt.gz"],
-    "B_F_Sd1" => ["nR064-L1-G2-P45-GATCAG-Sequences.txt.gz", "nR064-L2-G2-P45-GATCAG-Sequences.txt.gz"],
+    "B_F_S1" => ["nR064-L1-G2-P45-GATCAG-Sequences.txt.gz", "nR064-L2-G2-P45-GATCAG-Sequences.txt.gz"],
     "B_T_S1" => ["nR064-L1-G2-P47-GGCTAC-Sequences.txt.gz", "nR064-L2-G2-P47-GGCTAC-Sequences.txt.gz"]
 )
 n, samples = length(fastq), ["D_S1", "F_S1", "T_S1", "B_S1", "B_F_S1", "B_T_S1"]
