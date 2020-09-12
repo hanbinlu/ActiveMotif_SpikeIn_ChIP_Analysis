@@ -1,0 +1,4 @@
+name = "Spki_ChIP"
+uuid = "64d3180c-7cd6-4c49-b8cf-a40e96d79e66"
+authors = ["sf-nevermore <lhb032@gmail.com>"]
+version = "0.1.0"
